@@ -53,3 +53,24 @@ header {
     background-color: coral;
     border: 1px dashed black;
 }
+
+/* Upper Footer */
+
+.upper_footer {
+    padding: 40px 0;
+    background-color: #3a546d;
+}
+
+.upper_footer_col {
+    min-height: 50px;
+    background-color: antiquewhite;
+    border: 1px dashed black;
+}
+
+/* Bottom Footer */
+
+.bottom_footer {
+    color: white;
+    padding: 20px 0 30px 0;
+    background-color: #2c3e50;
+}
