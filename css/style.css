@@ -18,3 +18,12 @@ header {
     min-height: 500px;
     background-color: #1abc9c;
 }
+
+/* Porfolio */
+
+.portfolio_col {
+    min-height: 200px;
+    background-color: coral;
+    border: 1px dashed black;
+    padding: 15px;
+}
