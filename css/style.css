@@ -4,6 +4,12 @@
     width: 30%;
 }
 
+.btn_primary,
+.btn_primary:hover {
+    color: white;
+    background-color: #1abc9c;
+}
+
 /* Header */
 
 header {
