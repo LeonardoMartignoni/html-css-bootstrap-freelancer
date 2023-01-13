@@ -4,6 +4,10 @@ main section {
     margin: 50px 0;
 }
 
+.divider-star {
+    width: 30%;
+}
+
 /* Header */
 
 header {
@@ -32,16 +36,20 @@ header {
 /* Jumbotron */
 
 .jumbotron {
-    padding: 20px 0;
     background-color: #1abc9c;
-}
-
-.jumbotron-content {
-    color: white;
 }
 
 .jumbotron .avatar {
     width: 200px;
+}
+
+.jumbotron .divider-star::before,
+.jumbotron .divider-star::after {
+    content: "";
+    display: inline-block;
+    height: 3px;
+    width: 100%;
+    background-color: white;
 }
 
 /* Porfolio */
