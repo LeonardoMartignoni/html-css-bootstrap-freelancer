@@ -1,44 +1,38 @@
 /* Generics */
 
+:root {
+    --primary_color: #1abc9c;
+    --dark_color: #2c3e50;
+}
+
 .divider-star {
     width: 30%;
 }
 
 .btn_primary,
 .btn_primary:hover {
-    color: white;
-    background-color: #1abc9c;
+    background-color: var(--primary_color);
 }
 
 /* Header */
 
 header {
-    background-color: #2c3e50;
+    background-color: var(--dark_color);
 }
 
 .navbar {
     height: 80px;
 }
 
-.navbar-collapse {
-    flex-grow: 0;
-}
-
-.navbar .navbar-toggler {
-    border-color: white;
-    padding: 0;
-}
-
 .navbar .navbar-toggler-icon {
     background-image: none;
-    font-size: 2rem;
     height: auto;
 }
 
 /* Jumbotron */
 
 .jumbotron {
-    background-color: #1abc9c;
+    background-color: var(--primary_color);
 }
 
 .jumbotron .avatar {
@@ -59,15 +53,11 @@ header {
     background-color: var(--bs-body-color);
 }
 
-/* Porfolio */
-
 /* About */
 
 .about {
-    background-color: #1abc9c;
+    background-color: var(--primary_color);
 }
-
-/* Contact */
 
 /* Upper Footer */
 
@@ -75,12 +65,9 @@ header {
     background-color: #3a546d;
 }
 
-.theme_creator {
-    color: #1db196;
-}
-
+.theme_creator,
 .theme_creator:hover {
-    color: white;
+    color: var(--primary_color);
 }
 
 .upper_footer_col .fa-brands {
@@ -91,7 +78,5 @@ header {
 /* Bottom Footer */
 
 .bottom_footer {
-    color: white;
-    padding: 20px 0 30px 0;
-    background-color: #2c3e50;
+    background-color: var(--dark_color);
 }
