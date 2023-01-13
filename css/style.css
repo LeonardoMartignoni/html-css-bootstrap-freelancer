@@ -1,9 +1,5 @@
 /* Generics */
 
-main section {
-    margin: 50px 0;
-}
-
 .divider-star {
     width: 30%;
 }
@@ -43,13 +39,18 @@ header {
     width: 200px;
 }
 
-.jumbotron .divider-star::before,
-.jumbotron .divider-star::after {
+.divider-star::before,
+.divider-star::after {
     content: "";
     display: inline-block;
     height: 3px;
     width: 100%;
     background-color: white;
+}
+
+.divider-star.divider-black::before,
+.divider-star.divider-black::after {
+    background-color: var(--bs-body-color);
 }
 
 /* Porfolio */
