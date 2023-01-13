@@ -66,14 +66,20 @@ header {
 /* Upper Footer */
 
 .upper_footer {
-    padding: 40px 0;
     background-color: #3a546d;
 }
 
-.upper_footer_col {
-    min-height: 50px;
-    background-color: antiquewhite;
-    border: 1px dashed black;
+.theme_creator {
+    color: #1db196;
+}
+
+.theme_creator:hover {
+    color: white;
+}
+
+.upper_footer_col .fa-brands {
+    width: 40px;
+    height: 40px;
 }
 
 /* Bottom Footer */
